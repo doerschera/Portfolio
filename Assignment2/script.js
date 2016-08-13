@@ -1,9 +1,13 @@
+// text fade in
+
 $(document).ready(function () {
 	$('h2').fadeIn(2000);
 	$('h1').delay(1500).fadeIn(2000, function() {
 		$('#design, #studio, #about').show();
 		$('footer').show()
 	});
+
+// opening galleries
 
 	$('#menu1').click(function() {
 
@@ -29,6 +33,8 @@ $(document).ready(function () {
 
 	})
 
+// closing galleries
+
 	$('.x').click(function () {
 		$('#designGallery, #studioGallery').hide()
 
@@ -36,6 +42,7 @@ $(document).ready(function () {
 		$('.viewer div').removeClass('project activeProj');
 	})
 
+// arrow navigation in galleries
 
 	$('.arrowRight').click(function () {
 
@@ -86,6 +93,7 @@ $(document).ready(function () {
 
 	})
 
+// prevent page jumping whith menu collapse/expansion
 
 	$('#design, #studio, #about').click(function() {
 		event.preventDefault();
