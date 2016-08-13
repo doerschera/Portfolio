@@ -71,15 +71,9 @@ a:hover {
 
 /* Main Content */
 
-.wrapepr {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
-}
-
 .main {
 	width: 950px;
+	height: 900px;
 	margin: 40px auto;
 	position: relative;
 }
@@ -221,16 +215,11 @@ h3 {
 
 /* Footer */
 
-.footer, .push {
-	height: 4em;
-	clear: both;
-}
-
 footer {
-	/*position: fixed;
-	bottom: 0;*/
+	position: fixed;
+	bottom: 0;
 	width: 100%;
-	/*height: 50px;*/
+	height: 50px;
 	background-color: #666666;
 	border-top: solid 5px #4aaaa5;
 	color: #CCC;
