@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100');
+
+body {
+  font-family: "Alegreya Sans", "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url('Images/subtle_dots/subtle_dots.png');
+}
+
+/* Scollbar */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Social Icons */
+
+ul {
+  margin: 0px;
+  display: inline-block;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+.logo {
+  padding-bottom: 15px;
+  opacity: 0.3;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+.imgLink {
+  width: 20px;
+}
+
+/* Greeting */
+
+h1 {
+  font-size: 100px;
+  position: relative;
+  top: -30px;
+  display: none;
+}
+
+h2 {
+  font-size: 75px;
+  margin-top: 200px;
+  display: none;
+}
+
+/* Image Menus */
+
+
+#design {
+  display: none;
+  color: #cccccc;
+  border-bottom: solid 1px #cccccc;
+  margin-bottom: 0px;
+}
+
+#studio {
+  display: none;
+  color: #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+  margin-bottom: 0px;
+}
+
+.menu {
+  padding: 5px;
+  align-content: center;
+  background-color: #ffffff;
+  border: solid 1px #f2f2f2;
+  border-top: none;
+}
+
+.relative {
+  margin: 10px auto;
+  position: relative;
+  height: 125px;
+  width: 125px;
+  overflow: hidden;
+  align-content: center;
+  border: solid 1px #f2f2f2;
+}
+
+.thumb {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resize {
+  width: 200px;
+}
+
+.resize2 {
+  width: 300px;
+}
+
+/* About */
+
+#about {
+  display: none;
+  color: #b3b3b3;
+  border-bottom: solid 1px #b3b3b3;
+  margin-bottom: 0px;
+}
+
+.about {
+  padding-top: 15px;
+}
+
+.margin {
+  margin-bottom: 200px;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 50px;
+  margin-left: -15px;
+  margin-right: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  border-bottom: solid 5px #ffffff;
+}
+
+p {
+  padding-top: 15px;
+}
+
+.connect {
+  font-size: 16px;
+  color: #cccccc;
+  text-decoration: underline;
+  padding-left: 15px;
+}
+
+.connect:hover {
+  color: #000000;
+}
+
+.circle {
+  border-radius: 100%;
+  border: solid 1px #cccccc;
+  margin-left: 15px;
+}
+
+.profile {
+  width: 200px;
+  transform: translate(-50%, -48%);
+}
+
+.hello {
+  text-align: center;
+}
+
+/* popup gallery heading */
+
+.gallery {
+  display: none;
+  margin: 0px auto;
+  position: fixed;
+  top: 8%;
+}
+
+h3 {
+  padding: 0px !important;
+  color: #cccccc;
+}
+
+.tracking {
+  display: none;
+  width: 175px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  text-align: right;
+}
+
+.glyphicon {
+  color: #000000;
+}
+
+.glyphicon-menu-left, .glyphicon-menu-right {
+  margin: 0px 5px;
+}
+
+.dot {
+  border-radius: 100%;
+  height: 7px;
+  width: 7px;
+  background-color: #f2f2f2;
+  margin: 0px 3px;
+  margin-bottom: 3px;
+}
+
+.activeDot {
+  background-color: #000000;
+}
+
+/*.x {
+  width: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  /*position: absolute;
+  bottom: 0%;
+  right: -2%;*/
+
+
+/* popup gallery images*/
+
+.viewer {
+  /*border: solid 1px red;*/
+  background-color: #ffffff;
+  border: solid 1px #f2f2f2;
+  border-top: solid 1px #cccccc;
+  padding-bottom: 20px;
+}
+
+.disable {
+  display: none !important;
+}
+
+.activeProj {
+  display: inline-block !important;
+}
+
+.box {
+  /*border: solid 1px red;*/
+  height: 500px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.bigImg {
+  margin: 10px auto;
+  width: 100%;
+  /*border: solid 1px red;*/
+}
+
+/* popup gallery text*/
+
+h5 {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.description a {
+  padding: 15px;
+  color: #cccccc;
+  text-decoration: none;
+  position: absolute;
+  top: 65px;
+}
+
+.glyphicon-menu-down {
+  color: #cccccc;
+  padding-left: 5px;
+}
+
+.text {
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+/* footer */
+
+footer {
+  display: none;
+  margin-top: 300px;
+}
+
+@media(max-width: 980px) {
+
+  .box {
+    height: 400px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
