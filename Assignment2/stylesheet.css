@@ -167,7 +167,6 @@ p {
   font-size: 16px;
   color: #cccccc;
   text-decoration: underline;
-  padding-left: 15px;
 }
 
 .connect:hover {
@@ -177,7 +176,6 @@ p {
 .circle {
   border-radius: 100%;
   border: solid 1px #cccccc;
-  margin-left: 15px;
 }
 
 .profile {
@@ -316,6 +314,12 @@ footer {
     height: 400px;
   }
 
+}
+
+@media(max-width: 480px) {
+  .circle {
+    margin-left: 25%;
+  }
 }
 
 
